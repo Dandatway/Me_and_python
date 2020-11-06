@@ -1,0 +1,21 @@
+añadir a listas= lista.append(list2)
+remover elementos de lista=lista.remove(nommbre del elemento)
+lista.pop(posicion del elemento)--tambien se puede anidar lista[x].pop(x)
+conocer la posicion de un elemento-- lista.index(nombre del elemento)
+
+voltear una lista
+con cambio lista.reverse()
+sin cambio lista[::-1]
+agarrar datos
+agarrar datos por pasos
+lista[::entero positivo]
+
+copiar una lista a otra
+lista2=lista---se copia la direccion de memoria de la lista y no el contenido
+lista2=lista[:]--se crea una copia del contenido
+
+tipo de dato rango
+range(x) rango que se utiliza para ciclos, se borra automaticamente cuando se deja de utilizar
+
+range con step
+range(inicio:final:pasos)

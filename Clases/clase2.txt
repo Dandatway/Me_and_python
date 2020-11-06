@@ -1,0 +1,15 @@
+Operadores numericos
+
+si una operacion lleva un numero flotante el resultado siempre es flotante
+las divisiones siempre va a dar un flotante, para entero se usa //
+raices cuadradas **
+igual matematico ==
+contadores += -= *= /=
+modulo % arroja el residuo de una division
+
+Operadores string
+
+caracter y string son cadenas de texto
+'' sirve para mas cosas
+"" texto
+apuntadores arreglo de caracteres variable[x]--se puede utilizar tanto numeros positivos como negativos

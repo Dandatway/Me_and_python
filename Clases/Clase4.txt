@@ -1,0 +1,31 @@
+tuplas
+tupla=(-2,3,False,'Hola')- con parentesis o sin parentesis
+las tuplas no se pueden modificar, inmutable.
+
+convertir a lista
+lista=list(elemento)
+
+convertir a tupla
+tupla=tuple(elementolista)
+
+convertir tipos de datos
+cad=str(elemento)--string
+   =float(elemento)--fltante
+   =int(elemento)--entero
+
+sets
+-los sets no tienen apuntadores
+-no permiten datos duplicados
+
+comandos de set
+
+SetA.union(setB) |
+SetA.intersection(setB) &
+SetA.difference(setB) -
+SetB.difference(setA) -
+SetA.symmetric_difference(setB) ^
+
+modificar sets
+como hacer que un set se comporte como una tupla
+
+un set no puede almacenar un tipo de dato mutable(listas)
