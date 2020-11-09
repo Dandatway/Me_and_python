@@ -6,12 +6,12 @@ Created on Thu Nov  5 13:03:01 2020
 """
 
 
-cima=int(input('Ingresa un numero: '))
+n_max=int(input('Ingresa un numero: '))
 
-for x in range(1,cima+1):
+for x in range(1,n_max):
     xstr=str(x)
     print(xstr*x)
-    if x==cima:
-        for y in range(cima-1,0,-1):
-            ystr=str(y)
-            print(ystr*y)
+
+for y in range(n_max,0,-1):
+        ystr=str(y)
+        print(ystr*y)
