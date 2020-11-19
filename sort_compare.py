@@ -10,14 +10,15 @@ lista=list(input('Introduce la lista: '))
 for x in range(len(lista)):
     lista[x]=int(lista[x])
 
-it=0
+it = 0
 
-while it<=len(lista)-2:
-    for x in range(it+1,len(lista)):
+while it <= len(lista)-3:
+    for x in range(it+1, len(lista)):
         if lista[x-1] > lista[x]:
-            b=lista[x]
-    lista.remove(b)
-    lista.insert(it,b)
-    it+=1
+            value = lista[x]
+            index_value = x
+    lista.pop(index_value)
+    lista.insert(it, value)
+    it += 1
     print(lista)
 
